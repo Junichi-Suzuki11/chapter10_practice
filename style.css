@@ -294,3 +294,18 @@ header img {
 .area4 i:nth-child(2) {
 	margin: 0 20px;
 }
+
+
+/* footer */
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #EC715F;
+}
+
+.footer-text {
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+}
