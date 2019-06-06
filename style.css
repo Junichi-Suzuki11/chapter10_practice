@@ -101,36 +101,65 @@ header img {
 	margin: 30px 0;
 }
 
-.main-image {
+.main-image1 {
 	width: 300px;
 	height: 250px;
 	background-size: cover;
 	background-position: center;
+	background-image: url(img/sketch.jpg);
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.main-image2 {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/websuku.png);
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.main-image3 {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/write.jpg);
+	float: left;
+	margin-bottom: 10px;
+}
+
+.main-image4 {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/webcamp.png);
+	float: left;
+	margin-right: 10px;
+}
+
+.main-image5 {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/talk.jpg);
+	float:left;
+	margin-right: 10px;
+}
+
+.main-image6 {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/webcamp-mother.png);
 	float: left;
 }
-
-.main-image:nth-child(1) {
-	background-image: url(img/sketch.jpg);
-}
-.main-image:nth-child(2) {
-	background-image: url(img/websuku.png);
-}
-.main-image:nth-child(3) {
-	background-image: url(img/webcamp.png);
-}
-.main-image:nth-child(4) {
-	background-image: url(img/webcamp.png);
-}
-.main-image:nth-child(5) {
-	background-image: url(img/talk.jpg);
-}
-.main-image:nth-child(6) {
-	background-image: url(img/webcamp-mother.png);
-	margin: 0;
-}
-
-/*last-child*/
-
 
 /* Feature */
 .main-content2 {
@@ -154,11 +183,11 @@ header img {
 	margin-right: 0;
 }
 
-.social {
+.feature-social {
 	text-align: center;
 }
 
-.social i {
+.area2 i {
 	font-size: 60px;
 }
 
@@ -166,6 +195,7 @@ header img {
 	font-size: 20px;
 	color: #000000;
 	margin: 10px 0;
+	text-align: center;
 }
 .subtext {
 	font-size: 16px;
@@ -210,10 +240,57 @@ header img {
 .profile-subtext {
 	font-size: 16px;
 	color: #000000;
-	float: left;
 	margin-bottom: 20px;
 }
 
 .profile-subtext:last-child {
 	margin-bottom: 0;
+}
+
+/* contact */
+
+.area4 {
+	background-color: white;
+	padding: 90px 0;
+}
+
+.main-content4 {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.contact-box1 {
+	width: 400px;
+	float: left;
+}
+
+.contact-box2 {
+	width: 400px;
+	float: left;
+}
+
+.contact-subtitle {
+	font-size: 20px;
+	color: #000000;
+	margin-bottom: 5px;
+	margin-left: 150px;
+}
+
+.contact-subtext {
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 20px;
+	margin-left: 150px;
+}
+
+.area4 i {
+	font-size: 50px;
+}
+
+.area4 i:first-child {
+	margin-left: 150px;
+}
+
+.area4 i:nth-child(2) {
+	margin: 0 20px;
 }
